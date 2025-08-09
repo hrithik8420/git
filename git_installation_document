@@ -1,0 +1,23 @@
+Installation of Git:
+Git can be installed on Linux using the package manager specific to your distribution.
+Run the following command:
+git --version
+If Git is installed, the version number will be displayed. Otherwise, install it using the commands below.
+Ubuntu/Debian:
+sudo apt update
+sudo apt install git -y
+Fedora:
+sudo dnf install git -y
+CentOS:
+sudo yum install git -y
+Arch Linux:
+sudo pacman -S git
+After installation, check Git's version:
+git --version
+________________________________________
+After installing Git, configure your user details:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+To confirm the configuration:
+git config --list
+This ensures that Git recognizes your commits correctly.
